@@ -8,24 +8,23 @@ import '@assets/css/bootstrap.css';
 import '@assets/css/style.css';
 
 const IMAGE_URL = '@assets/images/dinda-indra.jpg';
-const META_DESCRIPTION = `Es un Placer Invitarte a Nuestra Boda. Esta Sera Una Ocasion Muy Especial, 
-Esperamos Puedas Acompañarnos`;
+const META_DESCRIPTION = `It is a pleasure to invite you to our wedding. This will be a very special occasion, We hope you can join us`;
 
 function MainLayout({ children }) {
   return (
     <Fragment>
       <Helmet>
-        <title>Yilber ❤️ Scarleth Boda</title>
+        <title>Ganesh ❤️ Pooja Wedding</title>
 
         {/* Favicon */}
         <link rel="icon" type="image/png" href={Favicon} />
 
         {/* font and SEO tags */}
-        <meta property="og:title" content="Boda Yilber Scarleth" />
+        <meta property="og:title" content="Wedding Ganesh Pooja" />
         <meta property="og:image" content={IMAGE_URL} />
-        <meta property="og:site_name" content="Boda Yilver Scarleth" />
+        <meta property="og:site_name" content="Wedding Ganesh Pooja" />
         <meta property="og:description" content={META_DESCRIPTION} />
-        <meta name="twitter:title" content="Boda Yilver Scarleth" />
+        <meta name="twitter:title" content="Wedding Ganesh Pooja" />
         <meta name="twitter:description" content={META_DESCRIPTION} />
         <meta name="twitter:image" content={IMAGE_URL} />
 

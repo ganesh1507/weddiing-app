@@ -9,9 +9,24 @@ function WeddingSection({ isInvitation }) {
   const renderGuestInfo = () => {
     return (
       <Fragment>
-        <div className="col-md-8 col-md-offset-4">
-          <WeddingInfoBox title="Presencial" time="2:00 Pm" date="Sabado, 24 Septiembre 2022"
-          description='Asados El Campeche <br/>San Sebastian de Yali'
+        <div className="col-md-8 col-md-offset-4" style={{ display: 'contents' }}>
+          <WeddingInfoBox title="Mehandi Ceremony" time="04:00 PM" date="Thursday, 25 April 2024"
+            description='Asados El Campeche San Sebastian de Yali'
+          />
+          <WeddingInfoBox title="Ring Ceremony" time="11:00 PM" date="Saturday, 27 April 2024"
+            description='Asados El Campeche San Sebastian de Yali'
+          />
+          <WeddingInfoBox title="Sangeet Ceremony" time="2:00 PM" date="Saturday, 27 April 2024"
+            description='Asados El Campeche San Sebastian de Yali'
+          />
+          <WeddingInfoBox title="Haldi Ceremony" time="5:00 PM" date="Saturday, 27 April 2024"
+            description='Asados El Campeche San Sebastian de Yali'
+          />
+          <WeddingInfoBox title="Vaidik Ceremony" time="10:00 AM" date="Sunday, 28 April 2024"
+            description='Asados El Campeche San Sebastian de Yali'
+          />
+          <WeddingInfoBox title="Varmala Ceremony" time="1:00 PM" date="Sunday, 28 April 2024"
+            description='Asados El Campeche San Sebastian de Yali'
           />
         </div>
         <ButtonLive />
@@ -26,9 +41,9 @@ function WeddingSection({ isInvitation }) {
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <span className="bismillah">Feliz De Tenerlos</span>
-              <h2 className="main-font main-font__wedding">Ceremonia de Matrimonio presencial</h2>
-              <span className="sub-title sub-title__wedding">En la siguiente seccion encontrara la informacion mas detallada:</span>
+              <span className="bismillah">We are HAPPY TO HAVE YOU on our special day.</span>
+              <h2 className="main-font main-font__wedding">Wedding Events</h2>
+              <span className="sub-title sub-title__wedding">Please peruse the details of our wedding rituals and celebrations. Your presence is the perfect touch to make our special day complete:</span>
             </div>
           </div>
           <div className="row">
@@ -38,13 +53,13 @@ function WeddingSection({ isInvitation }) {
                 <WeddingInfoBox
                   title="Ceremonia"
                   time="Se implementara en la mañana "
-                  date="Sabado, 24 Septiembre 2022"
+                  date="Sunday, 28 April 2024"
                   description="Asados El Campeche <br/>San Sebastian de Yali"
                 />
                 <WeddingInfoBox
                   title="Recepcion"
                   time="Se Implementara en la Tarde "
-                  date="Sabado, 24 Septiembre 2022"
+                  date="Sunday, 28 April 2024"
                   description=""
                 />
               </div>

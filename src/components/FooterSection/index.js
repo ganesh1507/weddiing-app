@@ -10,10 +10,10 @@ function FooterSection({ isInvitation }) {
           <div className="container">
             <div className="row">
               <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                <h2 className="main-font">Eres muy especial para nosotros</h2>
+                <h2 className="main-font">You are very special to us</h2>
                 <p className="info">
-                “Dicen que cuando conoces al amor de tu vida, el tiempo se para… Y, es verdad. Lo que no dicen
-                 es que cuando vuelve a ponerse en marcha, se mueve aún más rápidamente, para recuperar el tiempo perdido”
+                  “They say that when you meet the love of your life, time stops… And, it's true.
+                  What they don't say is that when it starts up again, it moves even faster, to make up for lost time.”
                 </p>
                 <p className="info">
                   Big Fish
@@ -28,8 +28,8 @@ function FooterSection({ isInvitation }) {
           <div className="row copyright">
             <div className="col-md-12 text-center">
               <p>
-                <small className="block">&copy; 2022 Yilber & Scarleth Wedding. All Rights Reserved.</small>
-                
+                <small className="block">&copy; 2024 Ganesh & Pooja Wedding. All Rights Reserved.</small>
+
               </p>
             </div>
           </div>

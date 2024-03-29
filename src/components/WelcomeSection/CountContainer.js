@@ -6,14 +6,14 @@ import { styMargin } from './styles';
 
 function CountContainer() {
   const { days, hours, minutes, seconds, timeHasRunOut, isEventOver } = useDateCountdown();
-  const finalText = isEventOver ? 'SUDAH' : 'SEDANG';
+  const finalText = isEventOver ? 'ALREADY' : 'CURRENTLY';
 
   if (timeHasRunOut)
     return (
       <>
         <div className="row">
           <div className="col-md-12" style={{ fontSize: '20px' }}>
-            {`Es Un Placer Invitarte`}
+            {`It is a pleasure to invite you`}
           </div>
         </div>
         <ButtonLive />
@@ -22,10 +22,10 @@ function CountContainer() {
 
   return (
     <div className="col-md-12" css={styMargin('0 0 16px 0')}>
-      <CountItem text="Dias" number={days} />
-      <CountItem text="Horas" number={hours} />
-      <CountItem text="Minutos" number={minutes} />
-      <CountItem text="Segundos" number={seconds} />
+      <CountItem text="Days" number={days} />
+      <CountItem text="Hours" number={hours} />
+      <CountItem text="Minutes" number={minutes} />
+      <CountItem text="Seconds" number={seconds} />
     </div>
   );
 }

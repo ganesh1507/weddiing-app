@@ -10,7 +10,7 @@ function ClickToSeeDetail({ loading, onClick }) {
         <div className="button">
           <span></span>
         </div>
-        <span className="text">{loading ? 'Cargando...' : 'Haga clic para ver los detalles del evento'}</span>
+        <span className="text">{loading ? 'Embarked inviting...' : 'Click to view event details'}</span>
       </section>
     </div>
   );

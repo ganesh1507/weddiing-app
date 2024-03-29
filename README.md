@@ -1,4 +1,4 @@
-# Jilverth & Scarleth Wedding Website
+# Ganesh & Pooja Wedding Website
 
 
 

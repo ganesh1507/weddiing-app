@@ -10,10 +10,10 @@ import HelloSection from '@components/HelloSection';
 import WeddingSection from '@components/WeddingSection';
 import LocationSection from '@components/LocationSection';
 import FooterSection from '@components/FooterSection';
-import CovidSection from '@components/Covid19';
 import FloatingMusic from '@components/FloatingMusic/Loadable';
-
-
+import PhotoSection from '@components/PhotoSection/Loadable';
+import WishesSection from '@components/WishesSection';
+import SakuraFalling from '@components/SakuraFalling';
 
 function Home({ location }) {
   const guestName = decodeURIComponent(getQueryValue(location, 'to') || '');
@@ -35,11 +35,12 @@ function Home({ location }) {
     return (
       <Fragment>
         <HelloSection isInvitation={isInvitation} />
+        <SakuraFalling numberOfPetals={30} />
         <WeddingSection isInvitation={isInvitation} />
-        {isInvitation && <CovidSection />}
         {isInvitation && <LocationSection />}
-        
-        <LocationSection/>
+        <PhotoSection />
+        <WishesSection />
+        <LocationSection />
         <FooterSection isInvitation={isInvitation} />
       </Fragment>
     );

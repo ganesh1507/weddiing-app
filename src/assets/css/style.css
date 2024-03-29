@@ -417,13 +417,15 @@ figure {
 #fh5co-event .event-wrap {
   border: 2px solid rgba(255, 255, 255, 0.5);
   background: rgba(255, 255, 255, 0.1);
-  padding: 30px;
   width: 100%;
   float: left;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   border-radius: 4px;
+  padding: inherit;
+  font-size:large;
+  font-weight: bold;
 }
 @media screen and (max-width: 768px) {
   #fh5co-counter .event-wrap,
@@ -433,11 +435,12 @@ figure {
 }
 #fh5co-counter .event-wrap h3,
 #fh5co-event .event-wrap h3 {
-  font-size: 20px;
+  font-size: large;
+  font-weight: bold;
   color: #fff;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   display: block;
-  padding-bottom: 20px;
+  padding-bottom: 5px;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -447,6 +450,7 @@ figure {
 #fh5co-event .event-wrap span {
   display: block;
   color: rgba(255, 255, 255, 0.8);
+  text-wrap: nowrap;
 }
 #fh5co-counter .event-wrap i,
 #fh5co-event .event-wrap i {

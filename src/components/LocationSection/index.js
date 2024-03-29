@@ -13,30 +13,30 @@ function LocationSection() {
               <p className="sub-title">
                 <a
                   href={GOOGLE_MAPS_LINK}
-                  title="Click Para Abrir En Google Maps"
+                  title="Click To Open In Google Maps"
                   target="_blank"
                   rel="noreferrer"
                   style={{ color: '#828282' }}
                 >
-                  <strong>Asados El Campeche</strong>
+                  <strong>Dwarkamai Hall, SaiLakshmi Lawns Gondur, Dhule</strong>
                 </a>{' '}
                 <br />
-                Direccion Local
+                Venue
               </p>
             </div>
           </div>
           <div className="row">
             <div className="col-md-10 col-md-offset-1">
-              
-                <iframe src=" https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3882.725481411545!2d-86.1870625!3d13.3050812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f721dee895bf9af%3A0x8e7edb1864b800bc!2sAsados%20El%20Campeche!5e0!3m2!1ses!2sni!4v1658255516494!5m2!1ses!2sni"
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3726.082057236481!2d74.70916677613403!3d20.94921959050405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdec54015b230d9%3A0xee48a797210d879d!2sSai%20laxmi%20lawns!5e0!3m2!1sen!2sus!4v1710131714917!5m2!1sen!2sus"
                 width="100%"
                 height="450"
                 frameBorder="0"
-                style={{ border: '0' }}
+                style={{ border: '2px solid #ccc', }}
                 allowFullScreen
                 aria-hidden="false"
                 tabIndex="0"
-                title="Google Maps - Boda Jarquin & Rivera"
+                title="Google Maps - Wedding Patil & Datrange"
               ></iframe>
             </div>
           </div>
