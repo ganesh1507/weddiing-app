@@ -65,7 +65,7 @@ const SakuraContainer = styled.div`
 
   @keyframes fall {
     to {
-      transform: translateY(${window.innerHeight}px);
+      transform: translateY(100vh);
     }
   }
 `;
