@@ -9,7 +9,7 @@ export const styWrapper = css`
   min-height: 70vh;
   color: #fff !important;
 
-  .bismillah {
+  .thankgod {
     color: #fff !important;
     font-size: 16px !important;
     font-family: sans-serif;

@@ -5,28 +5,28 @@ import WeddingInfoBox from './WeddingInfoBox';
 import ButtonLive from './ButtonLive';
 import { styWrapper } from './styles';
 
-function WeddingSection({ isInvitation }) {
-  const renderGuestInfo = () => {
+function WeddingSection({}) {
+  const renderFunctionDetails = () => {
     return (
       <Fragment>
         <div className="col-md-8 col-md-offset-4" style={{ display: 'contents' }}>
           <WeddingInfoBox title="Mehandi Ceremony" time="04:00 PM" date="Thursday, 25 April 2024"
-            description='Asados El Campeche San Sebastian de Yali'
+            description='Anand Mangal Soc, Opp Tikhat Pahunchar, Nashik'
           />
           <WeddingInfoBox title="Ring Ceremony" time="11:00 PM" date="Saturday, 27 April 2024"
-            description='Asados El Campeche San Sebastian de Yali'
+            description='Sai Lakshmi Lawns, Near Dhule airport, Gondur, Dhule'
           />
-          <WeddingInfoBox title="Sangeet Ceremony" time="2:00 PM" date="Saturday, 27 April 2024"
-            description='Asados El Campeche San Sebastian de Yali'
+          <WeddingInfoBox title="Sangeet Ceremony" time="3:00 PM" date="Saturday, 27 April 2024"
+            description='Sai Lakshmi Lawns, Near Dhule airport, Gondur, Dhule'
           />
           <WeddingInfoBox title="Haldi Ceremony" time="5:00 PM" date="Saturday, 27 April 2024"
-            description='Asados El Campeche San Sebastian de Yali'
+            description='Sai Lakshmi Lawns, Near Dhule airport, Gondur, Dhule'
           />
           <WeddingInfoBox title="Vaidik Ceremony" time="10:00 AM" date="Sunday, 28 April 2024"
-            description='Asados El Campeche San Sebastian de Yali'
+            description='Sai Lakshmi Lawns, Near Dhule airport, Gondur, Dhule'
           />
-          <WeddingInfoBox title="Varmala Ceremony" time="1:00 PM" date="Sunday, 28 April 2024"
-            description='Asados El Campeche San Sebastian de Yali'
+          <WeddingInfoBox title="Varmala Ceremony" time="1:30 PM" date="Sunday, 28 April 2024"
+            description='Sai Lakshmi Lawns, Near Dhule airport, Gondur, Dhule'
           />
         </div>
         <ButtonLive />
@@ -41,29 +41,13 @@ function WeddingSection({ isInvitation }) {
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <span className="bismillah">We are HAPPY TO HAVE YOU on our special day.</span>
+              <span className="thankgod">We are HAPPY TO HAVE YOU on our special day.</span>
               <h2 className="main-font main-font__wedding">Wedding Events</h2>
               <span className="sub-title sub-title__wedding">Please peruse the details of our wedding rituals and celebrations. Your presence is the perfect touch to make our special day complete:</span>
             </div>
           </div>
           <div className="row">
-            {!isInvitation && renderGuestInfo()}
-            {isInvitation && (
-              <div className="col-md-10 col-md-offset-1">
-                <WeddingInfoBox
-                  title="Ceremonia"
-                  time="Se implementara en la mañana "
-                  date="Sunday, 28 April 2024"
-                  description="Asados El Campeche <br/>San Sebastian de Yali"
-                />
-                <WeddingInfoBox
-                  title="Recepcion"
-                  time="Se Implementara en la Tarde "
-                  date="Sunday, 28 April 2024"
-                  description=""
-                />
-              </div>
-            )}
+            {renderFunctionDetails()}
           </div>
         </div>
       </div>
