@@ -2,13 +2,13 @@ import React, { Fragment } from 'react';
 import { Helmet } from 'react-helmet';
 import { node } from 'prop-types';
 
-import Favicon from '@assets/images/dinda-indra.png';
+import Favicon from '@assets/images/favicon.png';
 import '@assets/css/icomoon.css';
 import '@assets/css/bootstrap.css';
 import '@assets/css/style.css';
 
 const IMAGE_URL = '@assets/images/dinda-indra.jpg';
-const META_DESCRIPTION = `It is a pleasure to invite you to our wedding. This will be a very special occasion, We hope you can join us`;
+const META_DESCRIPTION = `Dear Family and Friends, It is a pleasure to invite you to our wedding. Please visit here to see more details`;
 
 function MainLayout({ children }) {
   return (
