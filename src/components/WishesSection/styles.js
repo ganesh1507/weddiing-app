@@ -23,6 +23,7 @@ export const styWrapperItem = css`
     font-weight: bold;
     text-transform: uppercase;
     margin: 0 0 4px 0;
+    padding-top: 50px;
   }
 
   blockquote {
@@ -71,11 +72,16 @@ export const newstyButtonWrapper = css`
   color: white;
 
   .button-nav {
-    padding: 45px 27px;
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
     border-radius: 50%;
-    font-size:20px;
+    font-size: 20px;
     font-weight: bold;
     margin: 24px;
     background: rgba(128, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 `;
+

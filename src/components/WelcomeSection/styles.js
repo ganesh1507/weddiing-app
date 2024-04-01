@@ -129,6 +129,7 @@ export const styBackground = css`
   display: flex;
   justify-content: center;
   align-items: center;
+  border-bottom: 1px solid;
 
   @media screen and (max-width: 400px) {
     .title {
@@ -194,17 +195,11 @@ export const styWrapper = css`
   }
 
   .to-dearest-name {
-    border-bottom: 1px solid;
-    padding-bottom: 12px;
-    max-width: 250px;
-    margin: auto auto 30px auto;
-  }
-
-  .to-dearest-name1 {
-    max-width: 400px;
-    margin: auto auto 30px auto;
-    font-family:'Cookie',cursive;
-    font-size:40px;
+    max-width: 500px;
+    margin: auto auto 10px auto;
+    font-family: 'Cookie', cursive;
+    letter-spacing: 1px;
+    font-size: 20px;
   }
 
   .margin__bottom {

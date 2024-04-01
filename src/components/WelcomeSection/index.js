@@ -47,8 +47,9 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
   const renderGuestSection = () => {
     if (isAnonymGuest) return (<Fragment>
       <h2 className="to-dearest-name">Dear Family & Friends,</h2>
-      <h2 className="to-dearest-name1">Days To Our Wedding Celebrations.....!</h2>
-    </Fragment>
+      <h2 className="to-dearest-name">We request the honour of your presence at our Wedding.</h2>
+      <h2 className="to-dearest-name">Countdown begins to our Celebrations.....!</h2>
+      </Fragment>
     );
 
     return (
@@ -72,10 +73,9 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
         <div className="container">
           <div className="row" css={styWrapper}>
             <div className="col-md-8 col-md-offset-2 text-center">
-              <h4 className="sub-title" style={{ fontFamily: 'Times New Roman', paddingBottom: '4vh' }}>|| Shri Ganeshay Namah ||<br /></h4>
-              <img style={{ filter: 'invert(100%)', paddingBottom: '24px' }} src={WeddingImg} alt="wedding-Ganesh-Pooja" />
-              <h4 className="sub-title">Our Families request the honour of your presence at<br /> Our wedding</h4>
-              <h1 className="title">Ganesh &amp; Pooja</h1>
+              <h4 className="sub-title" style={{ fontFamily: 'Times New Roman' }}>|| Shri Ganeshay Namah ||<br /></h4>
+              <img style={{ filter: 'invert(100%)', paddingTop: '50px' }} src={WeddingImg} alt="wedding-Ganesh-Pooja" />
+              <h1 className="title">Ganesh Weds Pooja</h1>
               {renderGuestSection()}
               <div className={isAnonymGuest ? 'margin__bottom' : ''}>
                 <CountContainer />

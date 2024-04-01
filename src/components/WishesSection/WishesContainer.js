@@ -77,8 +77,8 @@ function WishesContainer() {
         <h3 className="main-font" style={{fontSize: '35px', paddingTop:'27px'}}>⬇ Tap below to wish us ⬇</h3>
       </div>
       <div css={newstyButtonWrapper}>
-        <button className="btn btn-sm button-nav" onClick={handleGroomText}>{`+ GROOM`}</button>
-        <button className="btn btn-sm button-nav" onClick={handleBrideText}>{`+ BRIDE`}</button>
+        <button className="btn btn-sm button-nav" onClick={handleGroomText}>{`GROOM`}</button>
+        <button className="btn btn-sm button-nav" onClick={handleBrideText}>{` BRIDE  `}</button>
       </div>
     </div>
   );

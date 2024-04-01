@@ -15,8 +15,8 @@ function FooterSection({ isInvitation }) {
                   “They say that when you meet the love of your life, time stops… And, it's true.
                   What they don't say is that when it starts up again, it moves even faster, to make up for lost time.”
                 </p>
-                <h3 style={{ fontFamily: 'Your Font Name', color: '#800000', letterSpacing:'2px', fontWeight:'bold', paddingTop:'80px'}}>
-                We're eagerly anticipating the joy of celebrating alongside you on our big day! Join us as we count down the moments, excited to share this special occasion with you!...!
+                <h3 style={{ fontFamily: 'Your Font Name', color: '#800000', fontWeight: 'bold', paddingTop: '80px' }}>
+                  We're eagerly anticipating the joy of celebrating alongside you on our big day! Join us as we count down the moments, excited to share this special occasion with you!...!
                 </h3>
               </div>
             </div>
@@ -28,7 +28,7 @@ function FooterSection({ isInvitation }) {
           <div className="row copyright">
             <div className="col-md-12 text-center">
               <p>
-                <small className="block">&copy; 2024 Ganesh & Pooja Wedding. All Rights Reserved.</small>
+                <small className="block">&copy; 2024 Ganesh Weds Pooja. All Rights Reserved.</small>
 
               </p>
             </div>

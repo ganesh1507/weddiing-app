@@ -382,7 +382,7 @@ figure {
 #fh5co-counter .fh5co-heading h2,
 #fh5co-event .fh5co-heading h2 {
   color: #fff;
-  letter-spacing: 6px;
+  letter-spacing: 4px;
 }
 #fh5co-counter .fh5co-heading span,
 #fh5co-event .fh5co-heading span {
@@ -1268,8 +1268,9 @@ form label {
   height: 100px;
 }
 #fh5co-testimonial .wrap-testimony .testimony-slide figure img {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
+  margin-left: -30px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;

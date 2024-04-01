@@ -5,13 +5,13 @@ import WeddingInfoBox from './WeddingInfoBox';
 import ButtonLive from './ButtonLive';
 import { styWrapper } from './styles';
 
-function WeddingSection({}) {
+function WeddingSection({ }) {
   const renderFunctionDetails = () => {
     return (
       <Fragment>
         <div className="col-md-8 col-md-offset-4" style={{ display: 'contents' }}>
           <WeddingInfoBox title="Mehandi" time="05:00 PM" date="Thursday, 25 April 2024"
-            description='Anand Mangal Soc, Opp Tikhat <br /> Pahunchar, Gangapur road Nashik'
+            description='Anand Mangal Soc, Opp Tikhat <br /> Pahunchar, Gangapur road, Nashik'
           />
           <WeddingInfoBox title="Ring Ceremony" time="11:00 PM" date="Saturday, 27 April 2024"
             description='Dwarkamai, Sai Lakshmi Lawns,<br />Near Dhule airport, Gondur, Dhule'
