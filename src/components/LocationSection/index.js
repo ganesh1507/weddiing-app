@@ -9,7 +9,7 @@ function LocationSection() {
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-              <h2 className="main-font">Google Maps</h2>
+              <h2 className="main-font">Our Wedding Venue</h2>
               <p className="sub-title">
                 <a
                   href={GOOGLE_MAPS_LINK}

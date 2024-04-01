@@ -64,3 +64,18 @@ export const styButtonWrapper = css`
     padding: 5px 20px;
   }
 `;
+
+export const newstyButtonWrapper = css`
+  display: flex;
+  justify-content: center;
+  color: white;
+
+  .button-nav {
+    padding: 45px 27px;
+    border-radius: 50%;
+    font-size:20px;
+    font-weight: bold;
+    margin: 24px;
+    background: rgba(128, 0, 0, 0.4);
+  }
+`;

@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
 import { bool } from 'prop-types';
 
-import Bride from '@assets/images/groom.jpeg';
-import Groom from '@assets/images/bride.png';
+import Bride from '@assets/images/gp.png';
+import Groom from '@assets/images/pooja1.png';
 
 import { styWrapper } from './styles';
 
@@ -15,11 +15,11 @@ function HelloSection({ isInvitation }) {
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <h2 className="main-font">Patil Datrange Wedding</h2>
+              <h2 className="main-font">The Wedding Day</h2>
               <h3 className="sub-title hs">{finalSubtitle}</h3>
               <p className="info">
                 As we step into a new chapter of our lives, we can't imagine it without your love and warmth.
-                Please join us in celebrating the joy of our marriage and making this day truly special...
+                Please join us in celebrating the joy of our marriage and making this day truly special...!
               </p>
             </div>
           </div>

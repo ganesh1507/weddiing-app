@@ -49,7 +49,7 @@ body {
 }
 
 a {
-  color: #f14e95;
+  color: #800000;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -57,7 +57,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #f14e95;
+  color: #800000;
   outline: none;
   text-decoration: none;
 }
@@ -81,17 +81,17 @@ figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #f14e95;
+  background: #800000;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #f14e95;
+  background: #800000;
 }
 
 ::selection {
   color: #fff;
-  background: #f14e95;
+  background: #800000;
 }
 
 .fh5co-nav {
@@ -210,7 +210,7 @@ figure {
   color: #fff;
 }
 .fh5co-nav ul li.btn-cta a {
-  color: #f14e95;
+  color: #800000;
 }
 .fh5co-nav ul li.btn-cta a span {
   background: #fff;
@@ -382,6 +382,7 @@ figure {
 #fh5co-counter .fh5co-heading h2,
 #fh5co-event .fh5co-heading h2 {
   color: #fff;
+  letter-spacing: 6px;
 }
 #fh5co-counter .fh5co-heading span,
 #fh5co-event .fh5co-heading span {
@@ -792,7 +793,7 @@ figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #f14e95;
+  color: #800000;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -811,7 +812,7 @@ figure {
   position: relative;
 }
 .fh5co-contact-info ul li:before {
-  color: #f14e95;
+  color: #800000;
   position: absolute;
   left: 0;
   top: 0.05em;
@@ -904,7 +905,7 @@ form label {
 .fh5co-cover .display-tc .btn {
   padding: 15px 20px;
   background: #fff !important;
-  color: #f14e95;
+  color: #800000;
   border: none !important;
   font-size: 14px;
   text-transform: uppercase;
@@ -967,7 +968,7 @@ form label {
   display: inline-block;
   width: 100px;
   height: 100px;
-  background: rgba(241, 78, 149, 0.8);
+  background: #800000;
   margin: 0 4px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1073,7 +1074,7 @@ form label {
   font-size: 20px;
   background: #fff;
   padding: 20px;
-  color: #f14e95;
+  color: #800000;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1096,8 +1097,8 @@ form label {
 }
 .couple-half h3 {
   font-family: 'Sacramento', Arial, serif;
-  color: #f14e95;
-  font-size: 30px;
+  color: #800000;
+  font-size: 40px;
 }
 .couple-half .groom,
 .couple-half .bride {
@@ -1194,7 +1195,7 @@ form label {
   height: 90px;
   font-size: 40px;
   line-height: 40px;
-  color: #f14e95;
+  color: #800000;
 }
 .feature-center p,
 .feature-center h3 {
@@ -1213,16 +1214,18 @@ form label {
   margin-bottom: 2em;
 }
 .fh5co-heading h2 {
-  font-size: 60px;
+  font-size: 65px;
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: 500;
-  color: #f14e95;
+  color: #800000;
+  letter-spacing: 6px;
   font-family: 'Sacramento', Arial, serif;
 }
 @media screen and (max-width: 768px) {
   .fh5co-heading h2 {
     font-size: 40px;
+    letter-spacing: 6px;
   }
 }
 .fh5co-heading p {
@@ -1252,7 +1255,7 @@ form label {
   display: block;
 }
 #fh5co-testimonial .wrap-testimony .testimony-slide span a.twitter {
-  color: #f14e95;
+  color: #800000;
   font-weight: 300;
 }
 #fh5co-testimonial .wrap-testimony .testimony-slide figure {
@@ -1346,7 +1349,7 @@ form label {
   display: table-cell;
   vertical-align: middle;
   font-size: 30px;
-  color: #f14e95;
+  color: #800000;
 }
 .feature-left .feature-copy {
   float: left;
@@ -1378,6 +1381,7 @@ form label {
 }
 #fh5co-started .fh5co-heading h2 {
   color: #fff;
+  letter-spacing: 6px;
 }
 #fh5co-started .fh5co-heading p {
   color: rgba(255, 255, 255, 0.5);
@@ -1412,7 +1416,7 @@ form label {
 #fh5co-started .btn {
   height: 54px;
   border: none !important;
-  background: #f14e95;
+  background: #800000;
   color: #fff;
   font-size: 16px;
   text-transform: uppercase;
@@ -1432,6 +1436,7 @@ form label {
 }
 #fh5co-started .fh5co-heading h2 {
   margin-bottom: 0;
+  letter-spacing: 6px;
 }
 
 @media screen and (max-width: 768px) {
@@ -1443,6 +1448,7 @@ form label {
 }
 #fh5co-footer .copyright .block {
   display: block;
+  color: #800000;
 }
 
 .owl-carousel .owl-controls .owl-dot span {
@@ -1458,7 +1464,7 @@ form label {
 }
 .owl-carousel .owl-controls .owl-dot.active span {
   background: transparent;
-  border: 2px solid #f14e95;
+  border: 2px solid #800000;
 }
 
 #fh5co-offcanvas {
@@ -1720,9 +1726,9 @@ form label {
 }
 
 .btn-primary {
-  background: #f14e95;
+  background: #800000;
   color: #fff;
-  border: 2px solid #f14e95;
+  border: 2px solid #800000;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -1732,13 +1738,13 @@ form label {
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #f14e95;
-  border: 2px solid #f14e95;
+  color: #800000;
+  border: 2px solid #800000;
 }
 .btn-primary.btn-outline:hover,
 .btn-primary.btn-outline:focus,
 .btn-primary.btn-outline:active {
-  background: #f14e95;
+  background: #800000;
   color: #fff;
 }
 
@@ -1887,7 +1893,7 @@ form label {
 .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #f14e95;
+  border-color: #800000;
 }
 
 .row-pb-md {
@@ -1914,6 +1920,8 @@ form label {
 
 .main-font {
   font-family: 'Cookie', cursive !important;
+  color:#800000
+
 }
 
 .and-love {
@@ -1959,7 +1967,7 @@ form label {
     display: block;
     text-align: center;
     font-size: 5em !important;
-    color: rgba(241, 78, 149, 0.8);
+    color: #800000;
     font-weight: bold;
   }
 

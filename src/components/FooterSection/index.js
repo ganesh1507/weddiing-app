@@ -15,9 +15,9 @@ function FooterSection({ isInvitation }) {
                   “They say that when you meet the love of your life, time stops… And, it's true.
                   What they don't say is that when it starts up again, it moves even faster, to make up for lost time.”
                 </p>
-                <p className="info">
-                  Big Fish
-                </p>
+                <h3 style={{ fontFamily: 'Your Font Name', color: '#800000', letterSpacing:'2px', fontWeight:'bold', paddingTop:'80px'}}>
+                We're eagerly anticipating the joy of celebrating alongside you on our big day! Join us as we count down the moments, excited to share this special occasion with you!...!
+                </h3>
               </div>
             </div>
           </div>

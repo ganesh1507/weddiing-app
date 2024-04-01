@@ -38,7 +38,7 @@ function Home({ location }) {
         <SakuraFalling numberOfPetals={30} />
         <WeddingSection isInvitation={isInvitation} />
         {isInvitation && <LocationSection />}
-        <PhotoSection />
+        {/* <PhotoSection /> */}
         <WishesSection />
         <LocationSection />
         <FooterSection isInvitation={isInvitation} />

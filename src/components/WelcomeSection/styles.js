@@ -1,5 +1,5 @@
 import { css, keyframes } from '@emotion/core';
-import Background from '@assets/images/bg-welcome.jpg';
+import Background from '@assets/images/preWed/final.png';
 
 export const styHero = css`
   width: 100%;
@@ -200,12 +200,19 @@ export const styWrapper = css`
     margin: auto auto 30px auto;
   }
 
+  .to-dearest-name1 {
+    max-width: 400px;
+    margin: auto auto 30px auto;
+    font-family:'Cookie',cursive;
+    font-size:40px;
+  }
+
   .margin__bottom {
     margin-bottom: 3em !important;
   }
 
   a {
-    color: #f14e95;
+    color: #800000;
   }
 
   @media screen and (max-width: 330px) {
@@ -230,7 +237,7 @@ export const styWrapperCount = css`
   display: inline-block;
   width: 100px;
   height: 100px;
-  background: rgba(241, 78, 149, 0.8);
+  background: rgba(128, 0, 0, 0.5);
   margin: 8px;
   border-radius: 50%;
   position: relative;
@@ -279,7 +286,7 @@ export const styButtonWrapper = css`
   justify-content: center;
 
   .btn {
-    background: #f14e95;
+    background: #800000;
     color: #fff;
     border: none;
   }

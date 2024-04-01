@@ -2,7 +2,7 @@ import React, { Fragment, useState } from 'react';
 import { object, string, bool, func } from 'prop-types';
 import { Link } from 'gatsby';
 
-import WeddingImg from '@assets/images/wedding-logo.png';
+import WeddingImg from '@assets/images/wedding-logo1.png';
 import CountContainer from './CountContainer';
 import ScrollToDown from './ScrollToDown';
 import { styWrapper, styHero, styBackground, styButtonWrapper } from './styles';
@@ -45,7 +45,11 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
   };
 
   const renderGuestSection = () => {
-    if (isAnonymGuest) return <h2 className="to-dearest-name">Dear Family & Friends,</h2>;
+    if (isAnonymGuest) return (<Fragment>
+      <h2 className="to-dearest-name">Dear Family & Friends,</h2>
+      <h2 className="to-dearest-name1">Days To Our Wedding Celebrations.....!</h2>
+    </Fragment>
+    );
 
     return (
       <Fragment>
@@ -68,14 +72,14 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
         <div className="container">
           <div className="row" css={styWrapper}>
             <div className="col-md-8 col-md-offset-2 text-center">
-             <h4 className="sub-title" style={{ fontFamily: 'Times New Roman', paddingBottom:'10vh' }}>|| Shri Ganeshay Namah ||<br /></h4>
-              <img src={WeddingImg} alt="wedding-Ganesh-Pooja" />
+              <h4 className="sub-title" style={{ fontFamily: 'Times New Roman', paddingBottom: '4vh' }}>|| Shri Ganeshay Namah ||<br /></h4>
+              <img style={{ filter: 'invert(100%)', paddingBottom: '24px' }} src={WeddingImg} alt="wedding-Ganesh-Pooja" />
               <h4 className="sub-title">Our Families request the honour of your presence at<br /> Our wedding</h4>
               <h1 className="title">Ganesh &amp; Pooja</h1>
+              {renderGuestSection()}
               <div className={isAnonymGuest ? 'margin__bottom' : ''}>
                 <CountContainer />
               </div>
-              {renderGuestSection()}
               {isInvitation && (
                 <div className="row" css={styButtonWrapper}>
                   <div className="col-md-3">

@@ -10,23 +10,23 @@ function WeddingSection({}) {
     return (
       <Fragment>
         <div className="col-md-8 col-md-offset-4" style={{ display: 'contents' }}>
-          <WeddingInfoBox title="Mehandi Ceremony" time="04:00 PM" date="Thursday, 25 April 2024"
-            description='Anand Mangal Soc, Opp Tikhat Pahunchar, Nashik'
+          <WeddingInfoBox title="Mehandi" time="05:00 PM" date="Thursday, 25 April 2024"
+            description='Anand Mangal Soc, Opp Tikhat <br /> Pahunchar, Gangapur road Nashik'
           />
           <WeddingInfoBox title="Ring Ceremony" time="11:00 PM" date="Saturday, 27 April 2024"
-            description='Sai Lakshmi Lawns, Near Dhule airport, Gondur, Dhule'
+            description='Dwarkamai, Sai Lakshmi Lawns,<br />Near Dhule airport, Gondur, Dhule'
           />
-          <WeddingInfoBox title="Sangeet Ceremony" time="3:00 PM" date="Saturday, 27 April 2024"
-            description='Sai Lakshmi Lawns, Near Dhule airport, Gondur, Dhule'
+          <WeddingInfoBox title="Sangeet" time="03:00 PM" date="Saturday, 27 April 2024"
+            description='Dwarkamai, Sai Lakshmi Lawns,<br />Near Dhule airport, Gondur, Dhule'
           />
-          <WeddingInfoBox title="Haldi Ceremony" time="5:00 PM" date="Saturday, 27 April 2024"
-            description='Sai Lakshmi Lawns, Near Dhule airport, Gondur, Dhule'
+          <WeddingInfoBox title="Haldi & DJ" time="05:00 PM" date="Saturday, 27 April 2024"
+            description='Dwarkamai, Sai Lakshmi Lawns,<br />Near Dhule airport, Gondur, Dhule'
           />
-          <WeddingInfoBox title="Vaidik Ceremony" time="10:00 AM" date="Sunday, 28 April 2024"
-            description='Sai Lakshmi Lawns, Near Dhule airport, Gondur, Dhule'
+          <WeddingInfoBox title="Saptapadi" time="09:30 AM" date="Sunday, 28 April 2024"
+            description='Dwarkamai, Sai Lakshmi Lawns,<br /> Near Dhule airport, Gondur, Dhule'
           />
-          <WeddingInfoBox title="Varmala Ceremony" time="1:30 PM" date="Sunday, 28 April 2024"
-            description='Sai Lakshmi Lawns, Near Dhule airport, Gondur, Dhule'
+          <WeddingInfoBox title="Jaymala" time="01:00 PM" date="Sunday, 28 April 2024"
+            description='Dwarkamai, Sai Lakshmi Lawns,<br /> Near Dhule airport, Gondur, Dhule'
           />
         </div>
         <ButtonLive />
@@ -41,7 +41,7 @@ function WeddingSection({}) {
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <span className="thankgod">We are HAPPY TO HAVE YOU on our special day.</span>
+              {/* <span className="thankgod">We are HAPPY TO HAVE YOU on our special day.</span> */}
               <h2 className="main-font main-font__wedding">Wedding Events</h2>
               <span className="sub-title sub-title__wedding">Please peruse the details of our wedding rituals and celebrations. Your presence is the perfect touch to make our special day complete:</span>
             </div>
