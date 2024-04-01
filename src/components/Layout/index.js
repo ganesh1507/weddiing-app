@@ -8,7 +8,7 @@ import '@assets/css/bootstrap.css';
 import '@assets/css/style.css';
 
 const IMAGE_URL = '@assets/images/dinda-indra.jpg';
-const META_DESCRIPTION = `Dear Family and Friends, It is a pleasure to invite you to our wedding. Please visit here to see more details`;
+const META_DESCRIPTION = `Dear Family and Friends, It is a pleasure to invite you <br/>to our wedding. Please visit here to see more details`;
 
 function MainLayout({ children }) {
   return (
