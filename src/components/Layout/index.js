@@ -7,24 +7,24 @@ import '@assets/css/icomoon.css';
 import '@assets/css/bootstrap.css';
 import '@assets/css/style.css';
 
-const IMAGE_URL = '@assets/images/dinda-indra.jpg';
-const META_DESCRIPTION = `Dear Family and Friends, It is a pleasure to invite you <br/>to our wedding. Please visit here to see more details`;
+const IMAGE_URL = '@assets/images/favicon.jpg';
+const META_DESCRIPTION = `It is a pleasure to invite you to our wedding. Please visit here to see more details`;
 
 function MainLayout({ children }) {
   return (
     <Fragment>
       <Helmet>
-        <title>Ganesh ❤️ Pooja Wedding</title>
+        <title>Ganesh Weds❤️ Pooja</title>
 
         {/* Favicon */}
         <link rel="icon" type="image/png" href={Favicon} />
 
         {/* font and SEO tags */}
-        <meta property="og:title" content="Wedding Ganesh Pooja" />
+        <meta property="og:title" content="Ganesh Weds Pooja" />
         <meta property="og:image" content={IMAGE_URL} />
-        <meta property="og:site_name" content="Wedding Ganesh Pooja" />
+        <meta property="og:site_name" content="Ganesh Weds Pooja" />
         <meta property="og:description" content={META_DESCRIPTION} />
-        <meta name="twitter:title" content="Wedding Ganesh Pooja" />
+        <meta name="twitter:title" content="Ganesh Weds Pooja" />
         <meta name="twitter:description" content={META_DESCRIPTION} />
         <meta name="twitter:image" content={IMAGE_URL} />
 

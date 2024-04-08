@@ -13,13 +13,13 @@ function WeddingSection({ }) {
           <WeddingInfoBox title="Mehandi" time="05:00 PM" date="Thursday, 25 April 2024"
             description='Anand Mangal Soc, Opp Tikhat <br /> Pahunchar, Gangapur road, Nashik'
           />
-          <WeddingInfoBox title="Ring Ceremony" time="11:00 PM" date="Saturday, 27 April 2024"
+          <WeddingInfoBox title="Ring Ceremony" time="11:00 AM" date="Saturday, 27 April 2024"
             description='Dwarkamai, Sai Lakshmi Lawns,<br />Near Dhule airport, Gondur, Dhule'
           />
           <WeddingInfoBox title="Sangeet" time="03:00 PM" date="Saturday, 27 April 2024"
             description='Dwarkamai, Sai Lakshmi Lawns,<br />Near Dhule airport, Gondur, Dhule'
           />
-          <WeddingInfoBox title="Haldi & DJ" time="05:00 PM" date="Saturday, 27 April 2024"
+          <WeddingInfoBox title="Haldi & DJ" time="05:00 PM To 09:00 PM" date="Saturday, 27 April 2024"
             description='Dwarkamai, Sai Lakshmi Lawns,<br />Near Dhule airport, Gondur, Dhule'
           />
           <WeddingInfoBox title="Saptapadi" time="09:30 AM" date="Sunday, 28 April 2024"
