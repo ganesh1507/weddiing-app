@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import { bool } from 'prop-types';
 
 import Bride from '@assets/images/gp.png';
-import Groom from '@assets/images/pd.png';
+import Groom from '@assets/images/pooja1.png';
 
 import { styWrapper } from './styles';
 
