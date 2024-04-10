@@ -22,8 +22,8 @@ export const wishlist = [
   },
   {
     name: 'Shradha Datrange',
-    infoName: 'Ganesh Ki Sali',
-    description: `Ganesh and Pooja, When you read this message you probably already "Sah" Newly Married couple. or if you read this before that then read this again after. hehehehehee... you already are match couple 2024, so keep up the good work until only death takes you guys apart.`,
+    infoName: 'Pooja Ki Behan',
+    description: `Seeing you as a stunning bride is a reminder of how blessed we are as a family. Wishing you all the happiness in the world, my sister.`,
     image: Shradha,
   },
   {
