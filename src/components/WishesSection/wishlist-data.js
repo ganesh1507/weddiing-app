@@ -3,7 +3,9 @@ import Shradha from '@assets/images/shradha.png';
 import Simbha from '@assets/images/simbha.png';
 import Danish from '@assets/images/wishes/Danish.png';
 import Groom from '@assets/images/wishes/LadkeWale.png';
-import Bride from '@assets/images/wishes/LadkiWale.png';
+import Poonam from '@assets/images/wishes/poonam.png';
+import Pranjal from '@assets/images/wishes/pranjal.png';
+
 
 
 
@@ -13,6 +15,19 @@ export const wishlist = [
     infoName: 'Ganesh ka Dost',
     description: `Cheers to this amazing couple, Ganesh ki Pooja, I have personally known for years. It’s a different world you enter by their presence around. Heartiest Congratulations and warm regards in starting this new journey, you guys! 🙌🏻 ❤️`,
     image: Danish,
+  },
+  {
+    name: 'Pranjal Kolte',
+    infoName: 'Dulhan ki bestiiee',
+    description: `Our beautiful bond of friendship has flourished for over a decade now & will last forever ♾️.. 
+    On this very big and special day of your life, I wish your love story continue to blossom into beautiful journey with lots of joy and blessings 🙌🏻… Congratulations to both of you 🥰.. I love you guys soo much..❤️`,
+    image: Pranjal,
+  },
+  {
+    name: 'Poonam Dongare',
+    infoName: 'Ganpoo ke bestiiee',
+    description: `I’ve known you both for years and I send my heartfelt wishes for your marriage to be an exciting journey brimming with laughter, love, and countless inside jokes. Congratulations on becoming the perfect team!✨😊`,
+    image: Poonam,
   },
   {
     name: 'Rohit Patil',
