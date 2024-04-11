@@ -74,6 +74,7 @@ export const styScrollWrapper = css`
 
       span::before {
         position: absolute;
+        background-color: white;
         top: -23px;
         left: -22px;
         z-index: -1;
