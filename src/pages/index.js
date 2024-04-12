@@ -1,6 +1,7 @@
 import React, { useState, Fragment } from 'react';
 import { object } from 'prop-types';
 import getQueryValue from '@helpers/getQueryValue';
+import { inject } from '@vercel/analytics';
 /**
  * List of local components
  */
@@ -16,6 +17,7 @@ import WishesSection from '@components/WishesSection';
 import SakuraFalling from '@components/SakuraFalling';
 
 function Home({ location }) {
+  inject();
   const guestName = decodeURIComponent(getQueryValue(location, 'to') || '');
   const isInvitation = getQueryValue(location, 'type') === 'invitation';
   const firstName = guestName.replace(/ .*/, '');
