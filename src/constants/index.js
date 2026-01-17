@@ -1,11 +1,11 @@
 
 
-export const GOOGLE_CALENDAR_LINK = `https://calendar.google.com/calendar/event?action=TEMPLATE&dates=20201003T040000Z%2F20201003T060000Z&text=Dinda+%26+Indra+Wedding&details=Dinda+%26+Indra+Wedding`;
-export const GOOGLE_MAPS_LINK = `https://maps.app.goo.gl/7LVG3QA13g1wvdCP8`;
+export const GOOGLE_CALENDAR_LINK = `https://calendar.google.com/calendar/u/0/r/eventedit?dates=20260207T073000Z/20260207T093000Z&text=Pranit+%26+Janhvi+Wedding&details=Pranit+%26+Janhvi+Wedding`;
+export const GOOGLE_MAPS_LINK = `https://maps.app.goo.gl/qVzEMijouPShV5mA7?g_st=ipc`;
 
 
 // Marriage Date and Time in IST
-const marriageDateTimeIST = new Date('2024-04-28T12:30:00+05:30');
+const marriageDateTimeIST = new Date('2026-02-07T12:30:00+05:30');
 
 // Unix epoch start time
 const epochStart = new Date('1970-01-01T00:00:00+05:30');
@@ -17,6 +17,6 @@ const epochDiff = marriageDateTimeIST - epochStart;
 const epochTime = Math.floor(epochDiff / 1000);
 
 export const EPOCH_START_EVENT = epochTime;
-export const EPOCH_END_EVENT = 1714305616;
+export const EPOCH_END_EVENT = 1770469200;
 
 

@@ -24,7 +24,7 @@ function PhotoSection() {
         <div className="row">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <h2 className="main-font">#GaneshAndPoojaSayIDo</h2>
+              <h2 className="main-font">#PranitAndJanhaviSayIDo</h2>
               <p className="sub-title">
                 "They say marriages are made in Heaven. But so are thunder and lightning."
               </p>

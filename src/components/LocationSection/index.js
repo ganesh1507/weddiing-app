@@ -18,7 +18,7 @@ function LocationSection() {
                   rel="noreferrer"
                   style={{ color: '#828282' }}
                 >
-                  <strong>Dwarkamai Hall, SaiLakshmi Lawns Gondur, Dhule</strong>
+                  <strong>Sanjivani Ac Banquet Hall and Lawns, Jatra Hotel Nandur Naka Link Road, Panchavati, Nashik.</strong>
                 </a>{' '}
                 <br />
                 Venue
@@ -28,7 +28,7 @@ function LocationSection() {
           <div className="row">
             <div className="col-md-10 col-md-offset-1">
 
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3726.082057236481!2d74.70916677613403!3d20.94921959050405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdec54015b230d9%3A0xee48a797210d879d!2sSai%20laxmi%20lawns!5e0!3m2!1sen!2sus!4v1710131714917!5m2!1sen!2sus"
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3749.177265982864!2d73.8448985!3d20.001073499999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddc1d5164fff27%3A0x20f4c2ece6735cf2!2sSanjivani%20Ac%20Banquet%20Hall%20and%20Lawns!5e0!3m2!1sen!2sin!4v1768577574373!5m2!1sen!2sin"
                 width="100%"
                 height="450"
                 frameBorder="0"

@@ -28,7 +28,7 @@ function FooterSection({ isInvitation }) {
           <div className="row copyright">
             <div className="col-md-12 text-center">
               <p>
-                <small className="block">&copy; 2024 Ganesh Weds Pooja. All Rights Reserved.</small>
+                <small className="block">&copy; 2026 Pranit Weds Janhavi. All Rights Reserved.</small>
 
               </p>
             </div>

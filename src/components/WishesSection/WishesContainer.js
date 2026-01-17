@@ -59,11 +59,11 @@ function WishesContainer() {
   }, [handleSetNext, pauseSlide]);
 
   const handleGroomText = () => {
-    window.open('https://wa.me/917773959955?text=Greetings%20to%20sender%20from%20Ganesh-Weds-Pooja%20invitation.%0AWe%20have%20successfully%20land%20you%20to%20send%20wishes%20for%20both%20Of%20them.%0A%0AHello%20Ganesh%2C%0A%0AHere%27s%20what%20sender%20wants%20to%20wish%20you%3A%20%3Cwrite%20text%20here%3E%0ARegards%2C%20%0A%3CYour%20Name%20Here%3E', '_blank');
+    window.open('https://wa.me/918975392639?text=Greetings%20to%20sender%20from%20Pranit-Weds-Janhavi%20invitation.%0AWe%20have%20successfully%20land%20you%20to%20send%20wishes%20for%20both%20Of%20them.%0A%0AHello%20Pranit%2C%0A%0AHere%27s%20what%20sender%20wants%20to%20wish%20you%3A%20%3Cwrite%20text%20here%3E%0ARegards%2C%20%0A%3CYour%20Name%20Here%3E', '_blank');
   };
 
   const handleBrideText = () => {
-    window.open('https://wa.me/918796746808?text=Greetings%20to%20sender%20from%20Ganesh-Weds-Pooja%20invitation.%0AWe%20have%20successfully%20land%20you%20to%20send%20wishes%20for%20both%20Of%20them.%0A%0AHello%20Pooja%2C%0A%0AHere%27s%20what%20sender%20wants%20to%20wish%20you%3A%20%3Cwrite%20text%20here%3E%0ARegards%2C%20%0A%3CYour%20Name%20Here%3E%0A', '_blank');
+    window.open('https://wa.me/919130946663?text=Greetings%20to%20sender%20from%20Pranit-Weds-Janhavi%20invitation.%0AWe%20have%20successfully%20land%20you%20to%20send%20wishes%20for%20both%20Of%20them.%0A%0AHello%20Janhavi%2C%0A%0AHere%27s%20what%20sender%20wants%20to%20wish%20you%3A%20%3Cwrite%20text%20here%3E%0ARegards%2C%20%0A%3CYour%20Name%20Here%3E%0A', '_blank');
   };
 
   return (

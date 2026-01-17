@@ -2,7 +2,7 @@ import React, { Fragment, useState } from 'react';
 import { object, string, bool, func } from 'prop-types';
 import { Link } from 'gatsby';
 
-import WeddingImg from '@assets/images/wedding-logo1.png';
+import WeddingImg from '@assets/images/bappa.png';
 import CountContainer from './CountContainer';
 import ScrollToDown from './ScrollToDown';
 import { styWrapper, styHero, styBackground, styButtonWrapper } from './styles';
@@ -74,8 +74,8 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
           <div className="row" css={styWrapper}>
             <div className="col-md-8 col-md-offset-2 text-center">
               <h4 className="sub-title" style={{ fontFamily: 'Times New Roman' }}>|| Shri Ganeshay Namah ||<br /></h4>
-              <img style={{ filter: 'invert(100%)', paddingTop: '50px' }} src={WeddingImg} alt="wedding-Ganesh-Pooja" />
-              <h1 className="title">Ganesh Weds Pooja</h1>
+              <img style={{paddingTop: '50px' }} src={WeddingImg} alt="wedding-Pranit-Janhavi" />
+              <h1 className="title">Pranit Weds Janhavi</h1>
               {renderGuestSection()}
               <div className={isAnonymGuest ? 'margin__bottom' : ''}>
                 <CountContainer />

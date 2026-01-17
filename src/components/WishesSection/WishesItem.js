@@ -8,17 +8,27 @@ function WishesItem({ image, name, infoName, description, isActive }) {
   const renderItem = () => {
     return (
       <div className="item" css={styWrapperItem}>
-        <div className={`testimony-slide text-center ${isActive ? 'active' : 'hide'}`}>
-          <figure>
-            <img src={image} alt="user" loading="lazy" />
-          </figure>
-          <h4>{name}</h4>
-          <span className="infoName">{infoName}</span>
-          <blockquote>
-            <p className="description">{description}</p>
-          </blockquote>
+        <div className={`testimony-slide ${isActive ? 'active' : 'hide'}`}>
+          <div className="wishes-layout">
+            {/* IMAGE SECTION */}
+            <div className="wishes-image">
+              <div className="wishes-image__inner">
+                <img src={image} alt="user" loading="lazy" />
+              </div>
+            </div>
+
+            {/* TEXT SECTION */}
+            <div className="wishes-text">
+              <h4>{name}</h4>
+              <span className="infoName">{infoName}</span>
+              <blockquote>
+                <p className="description">{description}</p>
+              </blockquote>
+            </div>
+          </div>
         </div>
       </div>
+
     );
   };
 

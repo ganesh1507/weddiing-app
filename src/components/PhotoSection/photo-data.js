@@ -1,10 +1,10 @@
-import Gallery1 from '@assets/images/preWed/gallery-1.jpg';
-import Gallery2 from '@assets/images/preWed/gallery-2.jpg';
-import Gallery3 from '@assets/images/preWed/gallery-3.jpg';
-import Gallery4 from '@assets/images/preWed/gallery-4.jpg';
-import Gallery5 from '@assets/images/preWed/gallery-5.jpg';
-import Gallery6 from '@assets/images/preWed/gallery-6.jpg';
-import Gallery7 from '@assets/images/preWed/gallery-7.jpg';
+import Gallery1 from '@assets/images/bride-groom-img.jpg';
+import Gallery2 from '@assets/images/bride-groom-img.jpg';
+import Gallery3 from '@assets/images/bride-groom-img.jpg';
+import Gallery4 from '@assets/images/bride-groom-img.jpg';
+import Gallery5 from '@assets/images/bride-groom-img.jpg';
+import Gallery6 from '@assets/images/bride-groom-img.jpg';
+import Gallery7 from '@assets/images/bride-groom-img.jpg';
 
 export const photos = [
   {

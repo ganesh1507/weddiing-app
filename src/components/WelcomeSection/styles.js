@@ -1,5 +1,6 @@
 import { css, keyframes } from '@emotion/core';
-import Background from '@assets/images/preWed/final.png';
+import BackgroundDesktop from '@assets/images/preWed/wed-app-bg-lp.png';
+import BackgroundMobile from '@assets/images/preWed/wed-app-bg-mb.png';
 
 export const styHero = css`
   width: 100%;
@@ -32,6 +33,7 @@ export const styScrollWrapper = css`
     display: flex;
     justify-content: center;
     cursor: pointer;
+    padding-top: 75px
 
     span {
       position: absolute;
@@ -122,8 +124,8 @@ export const styScrollWrapper = css`
 `;
 
 export const styBackground = css`
+  background-image: url(${BackgroundDesktop});
   background-size: cover;
-  background-image: url(${Background});
   background-position: center;
   width: 100%;
   height: 100%;
@@ -131,6 +133,11 @@ export const styBackground = css`
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid;
+
+  /* Mobile */
+  @media screen and (max-width: 500px) {
+    background-image: url(${BackgroundMobile});
+  }
 
   @media screen and (max-width: 400px) {
     .title {
@@ -158,7 +165,7 @@ export const styWrapper = css`
   margin-top: -8em;
 
   img {
-    max-width: 80px;
+    max-width: 150px;
     margin-bottom: 24px;
   }
 
@@ -247,8 +254,8 @@ export const styWrapperCount = css`
   }
 
   @media screen and (max-width: 500px) {
-    width: 75px;
-    height: 75px;
+    width: 74px;
+    height: 74px;
     margin: 4px;
     font-size: 12px;
 

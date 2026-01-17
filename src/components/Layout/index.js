@@ -14,17 +14,17 @@ function MainLayout({ children }) {
   return (
     <Fragment>
       <Helmet>
-        <title>Ganesh Weds❤️ Pooja</title>
+        <title>Pranit Weds❤️ Janhavi</title>
 
         {/* Favicon */}
         <link rel="icon" type="image/png" href={Favicon} />
 
         {/* font and SEO tags */}
-        <meta property="og:title" content="Ganesh Weds Pooja" />
+        <meta property="og:title" content="Pranit Weds Janhavi" />
         <meta property="og:image" content={IMAGE_URL} />
-        <meta property="og:site_name" content="Ganesh Weds Pooja" />
+        <meta property="og:site_name" content="Pranit Weds Janhavi" />
         <meta property="og:description" content={META_DESCRIPTION} />
-        <meta name="twitter:title" content="Ganesh Weds Pooja" />
+        <meta name="twitter:title" content="Pranit Weds Janhavi" />
         <meta name="twitter:description" content={META_DESCRIPTION} />
         <meta name="twitter:image" content={IMAGE_URL} />
 

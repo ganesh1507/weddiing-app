@@ -1920,9 +1920,16 @@ form label {
 }
 
 .main-font {
+  font-size: 78px !important;
   font-family: 'Cookie', cursive !important;
-  color:#800000
+  color: #800000;
+}
 
+/* Mobile */
+@media (max-width: 768px) {
+  .main-font {
+    font-size: 45px !important;
+  }
 }
 
 .and-love {

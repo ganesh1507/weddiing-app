@@ -10,23 +10,39 @@ function WeddingSection({ }) {
     return (
       <Fragment>
         <div className="col-md-8 col-md-offset-4" style={{ display: 'contents' }}>
-          <WeddingInfoBox title="Mehendi" time="05:00 PM" date="Thursday, 25 April 2024"
-            description='Anand Mangal Soc, Opp Tikhat <br /> Pahunchar, Gangapur road, Nashik'
+          <WeddingInfoBox
+            title="Mehendi- Groom"
+            time="06:00 PM"
+            date="Thursday, 05 February 2026"
+            description="R.H No-1, Gokul Park,<br />Near Tulip Hospital,<br />Pathardi Phata, Nashik"
           />
-          <WeddingInfoBox title="Ring Ceremony" time="11:00 AM" date="Saturday, 27 April 2024"
-            description='Dwarkamai, Sai Lakshmi Lawns,<br />Near Dhule airport, Gondur, Dhule'
+
+          <WeddingInfoBox
+            title="Mehendi- Bride"
+            time="06:00 PM"
+            date="Thursday, 05 February 2026"
+            description="58, Mahalaxmi Row Bunglow,<br/>Near renuka jewellers,<br/> Damodar Nagar, Nashik"
           />
-          <WeddingInfoBox title="Sangeet" time="03:00 PM" date="Saturday, 27 April 2024"
-            description='Dwarkamai, Sai Lakshmi Lawns,<br />Near Dhule airport, Gondur, Dhule'
+
+          <WeddingInfoBox
+            title="Haldi & Sangeet"
+            time="06:00 PM to 10:00 PM"
+            date="Friday, 06 February 2026"
+            description="Sanjivani AC Banquet Hall & Lawns,<br />Jatra Hotel Nandur Naka Link Road,<br />Panchavati, Nashik"
           />
-          <WeddingInfoBox title="Haldi & DJ" time="05:00 PM To 09:00 PM" date="Saturday, 27 April 2024"
-            description='Dwarkamai, Sai Lakshmi Lawns,<br />Near Dhule airport, Gondur, Dhule'
+
+          <WeddingInfoBox
+            title="Saptapadi"
+            time="09:30 AM"
+            date="Saturday, 07 February 2026"
+            description="Sanjivani AC Banquet Hall & Lawns,<br />Jatra Hotel Nandur Naka Link Road,<br />Panchavati, Nashik"
           />
-          <WeddingInfoBox title="Saptapadi" time="09:30 AM" date="Sunday, 28 April 2024"
-            description='Dwarkamai, Sai Lakshmi Lawns,<br /> Near Dhule airport, Gondur, Dhule'
-          />
-          <WeddingInfoBox title="Jaymala" time="01:00 PM" date="Sunday, 28 April 2024"
-            description='Dwarkamai, Sai Lakshmi Lawns,<br /> Near Dhule airport, Gondur, Dhule'
+
+          <WeddingInfoBox
+            title="Varmala"
+            time="12:35 PM"
+            date="Saturday, 07 February 2026"
+            description="Sanjivani AC Banquet Hall & Lawns,<br />Jatra Hotel Nandur Naka Link Road,<br />Panchavati, Nashik"
           />
         </div>
         <ButtonLive />

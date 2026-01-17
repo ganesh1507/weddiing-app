@@ -18,12 +18,14 @@ export const styWithAnimation = (isActive) => css`
 `;
 
 export const styWrapperItem = css`
+  /* ===== TEXT STYLES ===== */
+
   h4 {
     color: #828282;
     font-weight: bold;
     text-transform: uppercase;
     margin: 0 0 4px 0;
-    padding-top: 50px;
+    padding-top: 0;
   }
 
   blockquote {
@@ -37,17 +39,89 @@ export const styWrapperItem = css`
     display: block;
   }
 
+  .description {
+    font-size: 16px !important;
+    line-height: 1.6;
+  }
+
   .hide {
     display: none;
   }
 
   .active {
-    diplay: block;
+    display: block; /* fixed typo */
   }
 
-  .description {
-    font-size: 16px !important;
+  /* ===== 2 SECTION LAYOUT ===== */
+
+  .wishes-layout {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    gap: 32px;
+    align-items: center;
   }
+
+  /* ===== IMAGE ===== */
+
+  .wishes-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .wishes-image__inner {
+    width: 100%;
+    max-width: 240px;
+    aspect-ratio: 3 / 4;
+    overflow: hidden;
+  }
+
+  .wishes-image__inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 0;
+  }
+
+  /* ===== TEXT ALIGNMENT ===== */
+
+  .wishes-text {
+    text-align: center;
+  }
+
+  /* ===== TABLET ===== */
+
+  @media screen and (max-width: 900px) {
+    .wishes-layout {
+      grid-template-columns: 200px 1fr;
+      gap: 24px;
+    }
+  }
+
+  /* ===== MOBILE ===== */
+
+  @media screen and (max-width: 600px) {
+    .wishes-layout {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+
+    .wishes-text {
+      text-align: center;
+    }
+
+    .wishes-image__inner {
+      max-width: 280px;
+      margin: 0 auto;
+    }
+
+    .description {
+      font-size: 15px !important;
+    }
+  }
+
+  /* ===== SMALL MOBILE ===== */
 
   @media screen and (max-width: 400px) {
     .description {

@@ -1,32 +1,71 @@
 import { css } from '@emotion/core';
 
 export const styWrapper = css`
+  padding: 80px 0;
+
   .sub-title {
     color: #828282;
     font-weight: 600;
     letter-spacing: 1px;
-    line-height: 20px;
+    margin-bottom: 24px;
   }
 
-  p {
-    font-size: 16px;
-    margin-top: 16px;
+  .info {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 520px;
   }
 
-  @media screen and (max-width: 500px) {
-    .sub-title {
-      font-size: 18px;
-      margin: 0 0 8px 0;
+  /* GRID USING EXISTING CLASS NAMES */
+  .couple-wrap--grid {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+  }
+
+  .couple-half {
+    flex: 1;
+  }
+
+  /* IMAGE SAFETY (NO CLS) */
+  .image-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .image-wrapper img {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+
+    aspect-ratio: 4976 / 7465; /* 🔑 prevents scroll jump */
+    object-fit: cover;
+    border-radius: 12px;
+  }
+
+  /* TABLET */
+  @media (max-width: 900px) {
+    .couple-wrap--grid {
+      gap: 32px;
+    }
+  }
+
+  /* MOBILE */
+  @media (max-width: 600px) {
+    padding: 56px 0;
+
+    .couple-wrap--grid {
+      flex-direction: column;
+      text-align: center;
     }
 
-    p {
+    .info {
       font-size: 16px;
+      max-width: 100%;
     }
-  }
 
-  @media screen and (max-width: 400px) {
-    p {
-      font-size: 14px;
+    .image-wrapper img {
+      max-width: 300px;
     }
   }
 `;

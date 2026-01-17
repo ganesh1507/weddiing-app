@@ -8,7 +8,7 @@ function ButtonLive() {
     <div className="row">
       <div className="col-md-12">
         <p className="text__live">Join us in person</p>
-        <a href="https://maps.app.goo.gl/7LVG3QA13g1wvdCP8" target="_blank" rel="noreferrer">
+        <a href="https://maps.app.goo.gl/ZUJjgYzLHUcMe6kUA" target="_blank" rel="noreferrer">
           <div css={styButtonWrapper}>
             <div className="img__wrapper">
               <img src={IconIg} alt="Google Maps" />
